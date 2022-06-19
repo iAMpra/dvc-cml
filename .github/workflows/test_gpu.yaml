@@ -7,5 +7,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: cml-runner
         run: |
-          nvidia-smi >> report.md
-          cml send-comment report.md
+          nvidia-smi >> report1.md
+          cml send-comment report1.md
