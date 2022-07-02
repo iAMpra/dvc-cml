@@ -7,5 +7,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: cml-runner
         run: |
-          docker ps
+          dvc
           
