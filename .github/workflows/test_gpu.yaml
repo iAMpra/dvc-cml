@@ -8,4 +8,5 @@ jobs:
       - name: cml-runner
         run: |
           docker run hello-world
+          ls
           
